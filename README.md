@@ -20,7 +20,7 @@ Inquirer is used to collect input from the user in order to generate the logo fi
 - [Deployed Application](#deployed)
 
 ## Mockup
-![Image showing a purple triangle with hot pink text that reads "M&M.".](./examples/triangle-mm.png)
+![Image showing a purple triangle with hot pink text that reads "M&M.".](./examples/example-mam.svg)
 
 ## Installation
 Install [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) and [Jest](https://www.npmjs.com/package/jest) to use the application.
