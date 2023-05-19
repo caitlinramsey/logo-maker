@@ -53,7 +53,7 @@ inquirer.createPromptModule(logoQuestions)
         }
 
         shape.setColor(shapeColor)
-        const svg = new SVG()
+        const svg = new generateSVG()
         svg.setText(characters, textColor)
         svg.setShape(logoShape)
         return writeFile('./examples/logo.svg', svg.render)
