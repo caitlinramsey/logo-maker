@@ -23,7 +23,7 @@ Inquirer is used to collect input from the user in order to generate the logo fi
 ![Image showing a purple triangle with hot pink text that reads "M&M.".](./examples/triangle-mm.png)
 
 ## Installation
-Install inquirer and jest to use the application.
+Install [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) and [Jest](https://www.npmjs.com/package/jest) to use the application.
 
 ## Usage
 To generate an SVG file containing a logo based on user specification.
