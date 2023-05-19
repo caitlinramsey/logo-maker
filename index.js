@@ -10,7 +10,7 @@ const logoQuestions = [
         {
             type: 'input',
             name: 'characters',
-            message: 'How many characters do you want for your logo?',
+            message: 'Please enter up to 3 characters for your logo:',
             validate: function (value) {
                 if(value.length > 3) {
                     return 'Please enter three characters or less.';
