@@ -8,6 +8,7 @@ This application collects information from the user after they have been asked a
 Inquirer is used to collect input from the user in order to generate the logo file. The text, text color, shape, and shape color that the user chooses are recorded using inquirer and used to generate the logo based on input. Jest is used to run unit tests.
 
 ## Table of Contents
+- [Mockup](#mockup)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -16,14 +17,16 @@ Inquirer is used to collect input from the user in order to generate the logo fi
 - [GitHub](#github)
 - [Email](#email)
 - [Instructions](#instructions)
+- [Deployed Application](#deployed)
+
+## Mockup
+![Image showing a purple triangle with hot pink text that reads "M&M.".](./examples/triangle-mm.png)
 
 ## Installation
 Install inquirer and jest to use the application.
 
 ## Usage
 To generate an SVG file containing a logo based on user specification.
-
-![Image showing a purple triangle with hot pink text that reads "M&M.".](./examples/triangle-mm.png)
 
 A walkthrough video demonstrating how a user would invoke the application from the command line as well as how to enter responses and the output of the application can be viewed <a href="https://" target="_blank">here</a>.
 
@@ -44,3 +47,6 @@ Email: caitlinramsey@outlook.com
 
 ## Instructions 
 Please email me at the address listed above.
+
+## Deployed Application
+The deployed application can be viewed here: https://www.github.com
