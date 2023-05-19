@@ -36,27 +36,27 @@ const logoQuestions = [
         },
     ];
 
-inquirer.createPromptModule(logoQuestions)
+inquirer.prompt(logoQuestions)
     .then(({ characters, textColor, shape, shapeColor }) => {
         let logoShape;
 
         switch (shape) {
             case 'Circle':
-                shape = new Circle();
+                logoShape = new Circle();
                 break;
             case 'Triangle':
-                shape = new Triangle();
+                logoShape = new Triangle();
                 break;
             case 'Square':
-                shape = new Square();
+                logoShape = new Square();
                 break;
         }
 
-        shape.setColor(shapeColor)
+        logoShape.setColor(shapeColor)
         const svg = new generateSVG()
         svg.setText(characters, textColor)
         svg.setShape(logoShape)
-        return writeFile('./examples/logo.svg', svg.render)
+        return writeFile('./examples/logo.svg', svg.render())
     })
         .then (() => console.log('Generated logo.svg'))
         .catch((err) => console.error(err));
