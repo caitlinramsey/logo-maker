@@ -28,7 +28,7 @@ Install [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) and [Jest](ht
 ## Usage
 To generate an SVG file containing a logo based on user specification.
 
-A walkthrough video demonstrating how a user would invoke the application from the command line as well as how to enter responses and the output of the application can be viewed <a href="https://" target="_blank">here</a>.
+A walkthrough video demonstrating how a user would invoke the application from the command line as well as how to enter responses and the output of the application can be viewed <a href="https://drive.google.com/file/d/1DNF0ZtjUloT25MgpTCvdR0Hw2YGHlfPS/view" target="_blank">here</a>.
 
 ## License
 MIT

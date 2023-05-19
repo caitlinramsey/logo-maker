@@ -1,1 +1,1 @@
-<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><polygon fill='black' points='150,18 244, 182 56, 182' /><text x="150" y="135" font-size="45" text-anchor="middle" fill="hotpink">MAM</text></svg>
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><circle fill='purple' cx='150' cy='120' r='80' /><text x="150" y="135" font-size="45" text-anchor="middle" fill="pink">REM</text></svg>
