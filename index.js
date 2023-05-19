@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const { writeFile } = require('fs').promises;
 const generateSVG = require('./lib/SVG');
+const {Circle, Triangle, Square} = require('./lib/shapes')
 
 // questions for user input that generates logo
 
@@ -10,7 +11,7 @@ const logoQuestions = [
             type: 'input',
             name: 'characters',
             message: 'How many characters do you want for your logo?',
-            validate function (value) {
+            validate: function (value) {
                 if(value.length > 3) {
                     return 'Please enter three characters or less.';
                 } 
@@ -37,7 +38,8 @@ const logoQuestions = [
 
 inquirer.createPromptModule(logoQuestions)
     .then(({ characters, textColor, shape, shapeColor }) => {
-        let shape;
+        let logoShape;
+
         switch (shape) {
             case 'Circle':
                 shape = new Circle();
@@ -52,8 +54,8 @@ inquirer.createPromptModule(logoQuestions)
 
         shape.setColor(shapeColor)
         const svg = new SVG()
-        svg.setText(text, textColor)
-        svg.setShape(shape)
+        svg.setText(characters, textColor)
+        svg.setShape(logoShape)
         return writeFile('./examples/logo.svg', svg.render)
     })
         .then (() => console.log('Generated logo.svg'))
