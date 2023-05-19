@@ -49,4 +49,4 @@ Email: caitlinramsey@outlook.com
 Please email me at the address listed above.
 
 ## Deployed Application
-The deployed application can be viewed here: https://www.github.com
+Due to the nature of this application, it is not deployed to a site.
